@@ -21,6 +21,10 @@ public class SportsRepository {
         return sportList;
     }
 
+    public static void setSportList(List<Sport> sportList){
+        SportsRepository.sportList = sportList;
+    }
+
     private static void initializeList(){
         sportList = new ArrayList<Sport>();
 

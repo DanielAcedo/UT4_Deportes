@@ -65,24 +65,24 @@ public class ListSports extends AppCompatActivity {
 
         switch (item.getItemId()){
             case R.id.menu_filterSport:
+                openCharacterDialog();
                 break;
         }
 
         return super.onOptionsItemSelected(item);
     }
 
-    /*private void openCharacterDialog(){
+    private void openCharacterDialog(){
         FilterDialog dialog = new FilterDialog();
-        dialog.show(getSupportFragmentManager(), DIALOG_TAG);
-
-        dialog.onDismiss(new FilterDialog.FilterDialogCallback() {
+        dialog.onDismissal(new FilterDialog.FilterDialogCallback() {
             @Override
-            public void dismiss(char c) {
-                Toast.makeText(ListSports.this, String.valueOf(c), Toast.LENGTH_SHORT).show();
+            public void dismiss(String s) {
+                adapter.filterObjects(s);
             }
         });
+        dialog.show(getSupportFragmentManager(), DIALOG_TAG);
 
-    }*/
+    }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
