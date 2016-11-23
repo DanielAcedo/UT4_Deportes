@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Deportes</string>
+
+    <!-- Interface elements -->
+    <string name="txv_ListInfo">Selecciona los deportes que te gustan y pulsa \'Aceptar\'</string>
+    <string name="btn_Confirm">Aceptar</string>
+
+    <!-- Information messages -->
+    <string name="toast_liked_confirmed">Deportes que te gustan guardados en preferencias.</string>
+    <string name="toast_liked_readed">Deportes que te gustan leidos en preferencias.</string>
+
+    <!-- Menus -->
+    <string name="menu_filterSport">Filtrar Deportes</string>
+
+    <!-- FilterDialog -->
+    <string name="filterDialog_title">Introduce un caracter para filtrar</string>
+    <string name="filterDialog_positiveButton">Aceptar</string>
+    <string name="filterDialog_negativeButton">Cancelar</string>
+</resources>

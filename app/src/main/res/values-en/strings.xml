@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sports</string>
+    <string name="btn_Confirm">Confirm</string>
+    <string name="filterDialog_negativeButton">Cancel</string>
+    <string name="filterDialog_positiveButton">Accept</string>
+    <string name="filterDialog_title">Enter a character to filter</string>
+    <string name="menu_filterSport">Filter Sports</string>
+    <string name="toast_liked_confirmed">Sports you like saved in preferences.</string>
+    <string name="toast_liked_readed">Sports you like read from preferences.</string>
+    <string name="txv_ListInfo">Select whichever sports you like and click on \'Confirm\'</string>
+</resources>
